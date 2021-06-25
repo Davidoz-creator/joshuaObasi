@@ -1210,6 +1210,130 @@ a:focus {
     }
 }
 
+/******************----******/
+
+/*******************************/
+/*********** Team CSS **********/
+/*******************************/
+.teamteam {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.teamteam .team-item {
+    position: relative;
+    background: #ffffff;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: inset 0 0 0 0 transparent;
+    transition: ease-out 0.5s;
+}
+
+.teamteam .team-img {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.teamteam .team-img img {
+    position: relative;
+    width: 100%;
+    transition: .5s;
+}
+
+.teamteam .team-text {
+    position: relative;
+    width: 50%;
+    padding: 0 30px;
+}
+
+.teamteam .team-text h2 {
+    color: #132390;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    transition: 1s;
+}
+
+.teamteam .team-text h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+
+.teamteam .team-text p {
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.teamteam .team-social {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.teamteam .team-social a.btn {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+.teamteam .team-item:hover {
+    box-shadow: inset 800px 0 0 0 #132390;
+}
+
+.teamteam .team-item:hover .team-img img {
+    transform: scale(1.2);
+}
+
+.teamteam .team-item:hover .team-text h2,
+.teamteam .team-item:hover .team-text h4,
+.teamteam .team-item:hover .team-text p {
+    color: #ffffff;
+}
+
+.teamteam .team-item:hover .team-social a.btn {
+    background: #ffffff;
+}
+
+.teamteam .team-item:hover .team-social a.btn:hover {
+    border-color: #ffffff;
+}
+
+@media(max-width: 575.98px) {
+    .teamteam .team-text {
+        padding: 0 15px;
+    }
+    
+    .teamteam .team-text h2 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .teamteam .team-text h4 {
+        margin-bottom: 5px;
+    }
+
+    .teamteam .team-text p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
 
 /*******************************/
 /******* Testimonial CSS *******/
@@ -1312,8 +1436,8 @@ a:focus {
 }
 
 .contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
-    background-size: contain;
+    background: url(../img/library.jpg) left center no-repeat;
+    background-size: cover;
 }
 
 .contact .contact-form {
